@@ -1,0 +1,119 @@
+        .LF{width:25%;height:1000px;float:left; background-image: url('../images/contact/contact1.jpg'); background-size: cover;color:white;font-size:60px;text-align:center;}  
+        
+        .RF{width:75%;height:1000px;float:left; background-image: url('../images/contact/contact2.jpg'); background-size: cover;}
+        
+        .CU{width:100%;height:90px;float:left;margin-left: 200px;margin-top:100px;}
+        
+        .ADD{width:17%;height:350px;float:left;margin-left: 200px; color: aliceblue;}
+        
+        .FORM{width:40%;height:380px;float:right; margin-right: 200px; margin-top: 23px;}
+        
+        .MAP{width:65%;height:290px;float:left;margin-top: 50px;margin-left: 200px}
+
+        #h {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 70px;
+            color: azure;
+            margin: 0;
+        }
+        
+        .brandicons a{
+            margin-right:15px;
+            font-size:30px;
+            color:white;
+        }
+        
+        .brandicons a:hover{
+            color:rgb(34,19,51);
+        }
+
+        input[type=text] {
+            width: 36%;
+            padding: 15px 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        input[type=text]:focus {
+            border: 3px solid #555;
+        }
+
+        input[type=number] {
+            width: 36%;
+            padding: 15px 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        input[type=number]:focus {
+            border: 3px solid #555;
+        }
+
+        input[type=email] {
+            width: 80%;
+            padding: 15px 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        input[type=email]:focus {
+            border: 3px solid #555;
+        }
+
+        textarea {
+            width: 80%;
+            padding: 15px 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            resize: none
+        }
+
+        textarea:focus {
+            border: 3px solid #555;
+        }
+
+        input[type=submit] {
+            width: 87%;
+            padding: 15px 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgb(242,153,136);
+        }
+        
+        @media only screen and (max-width:600px){
+            .FORM{
+                width:60%;
+                height:480px;
+                margin-right: 200px; margin-top: 23px;
+            }
+            .LF{
+                width:0%;
+            }
+            .RF{
+                width:100%;
+                height:1300px;
+                text-align:center;
+            }
+            .CU{
+               margin-top:50px;
+               margin-left:0px;
+            }
+            .ADD{
+                width:100%;
+                margin-left:0px;
+            }
+            .FORM{
+                width:100%;
+                margin-right:0px;
+            }
+            .MAP{
+                margin-left:20px;
+                margin-top:-45px;
+                width:90%;
+            }
+            #h{
+                font-size:12vw;
+            }
